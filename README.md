@@ -1,11 +1,8 @@
-# Netflix Matrimony - 'Tinder' for Netflix 🍿
-#### 5 Python Projects in 5 Days - Day 3: Web Development
+# Flixder - 'Tinder' for Netflix 🎥 + 🍿
 
-A Flask app that generates random movie recommendations, with details listed for each title, that a user can swipe through and watch with the click of a button.
+A python flask app that generates random netflix movie and show recommendations, with it's details listed for each title, that a user can swipe through and watch with the click of a button.
 
 ![app demo](/3_webdev/demo.gif)
-
-**📸YouTube Tutorial: [https://youtu.be/HZHOhf8EXXc](https://youtu.be/HZHOhf8EXXc)**
 
 ## Inspiration
 Since I now have a lot more free time on my hands, I’ve been perusing Netflix more than usual. Despite their vast library, I can never find something to watch, and I don't think I'm alone. So, I wanted to make something that generates *completely* random recommendations, but still gives the user *some* information about the title before they watch. So, if someone is stuck in a movie rut, this app can help them branch out and try something new! 🎞
@@ -51,4 +48,4 @@ Once the Flask app is running, navigate to the `localhost` link provided:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/harshibar/5-python-projects/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License.

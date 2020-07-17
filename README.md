@@ -2,7 +2,7 @@
 
 A python flask app that generates random netflix movie and show recommendations, with it's details listed for each title, that a user can swipe through and watch with the click of a button.
 
-![app demo](/3_webdev/demo.gif)
+![app demo](FlixderDemo.gif)
 
 ## Inspiration
 Always wanted to work with a python web framework and so here I am, learnt and implemented something basic with flask and python to get started. 

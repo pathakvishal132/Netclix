@@ -5,7 +5,7 @@ A python flask app that generates random netflix movie and show recommendations,
 ![app demo](/3_webdev/demo.gif)
 
 ## Inspiration
-Since I now have a lot more free time on my hands, I’ve been perusing Netflix more than usual. Despite their vast library, I can never find something to watch, and I don't think I'm alone. So, I wanted to make something that generates *completely* random recommendations, but still gives the user *some* information about the title before they watch. So, if someone is stuck in a movie rut, this app can help them branch out and try something new! 🎞
+Always wanted to work with a python web framework and so here I am, learnt and implemented something basic with flask and python to get started. 
 
 ## Installation
 1. Install Flask

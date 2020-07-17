@@ -1,13 +1,13 @@
-# Flixder - 'Tinder' for Netflix 🎥 + 🍿
+# Flixder - 'Tinder' for Netflix 🎥 + 🍿 = 😃
 
 A python flask app that generates random netflix movie and show recommendations, with it's details listed for each title, that a user can swipe through and watch with the click of a button.
 
 ![app demo](flixderDemo.gif)
 
-## Inspiration
+## Inspiration 🤩
 Always wanted to work with a python web framework and so here I am implementing something basic with flask and python to get started. 
 
-## Installation
+## Installation 🛠️
 1. Install Flask
 
     ```$ pip install flask```
@@ -25,7 +25,7 @@ Always wanted to work with a python web framework and so here I am implementing 
 4. Download the CSV linked in [this Kaggle dataset](https://www.kaggle.com/shivamb/netflix-shows) and name the file `catalog.csv`. This will store the bulk of our data.
 
 
-## Usage
+## Usage 🚀
 #### To launch the app:
     $ python main.py
 
@@ -34,13 +34,13 @@ Once the Flask app is running, navigate to the `localhost` link provided:
 <code> * Running on <b>http://127.0.0.1:5000/</b> (Press CTRL+C to quit)</code>
 
 
-## Thanks
+## Thanks 🙏
 
 * [Open Movie Database](http://www.omdbapi.com/) - Movie data API to fetch movie poster links and IMDB scores
 * [Kaggle Netflix Dataset](https://www.kaggle.com/shivamb/netflix-shows) - Comprehensive dataset with many Netflix movies/tv shows and their metadata
 * [Flask Starter Code](https://github.com/salvillalon45/SPGISummer2018-FlaskTutorial) - A place to get started with Flask code
 
-## Learn More
+## Learn More 👻
 
 * [Flask Starter Guide](https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/) - A great starter guide on how to learn Flask
 * [Flask Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) - A more in-depth tutorial on Flask

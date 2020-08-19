@@ -12,10 +12,18 @@
     {% extends "template.html" %}
     {% block content %}
     <div class="container master">
+      <div class="container" >
+
+          <button class="button watch" onclick="window.open('https://www.netflix.com/watch/{{movie.id}}', '_blank')"target='0'>
+          Watch Now!
+          <i class="fa fa-star"></i>
+        </button>
+
+      </div>
       <div>
         <a href="{{ url_for('home') }}">
-          <button class="button downvote">
-              <i class="fa fa-times fa-3x"></i>
+          <button class="button heart">
+            <i class="next"> next </i>
           </button>
         </a>
       </div>
@@ -37,18 +45,9 @@
       <div>
         <a href="{{ url_for('home') }}">
           <button class="button heart">
-            <i class="fa fa-heart fa-2x"></i>
+            <i class="next"> next </i>
           </button>
         </a>
-      </div>
-    </div>
-
-    <div class="container">
-      <div>
-        <button class="button watch" onclick="window.open('https://www.netflix.com/watch/{{movie.id}}', '_blank')"target='0'>
-          Watch Now!
-          <i class="fa fa-star"></i>
-        </button>
       </div>
     </div>
 

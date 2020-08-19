@@ -81,11 +81,11 @@ span {
 }
 
 .downvote {
-    background-image: linear-gradient(rgb(249,54,96), rgb(252, 93, 67))
+    background-image:linear-gradient(rgb(45,156,255), rgb(29, 194, 255))
 }
 
-.heart {
-    background-image: linear-gradient(rgb(37,225,143), rgb(76, 236, 202))
+.button.heart {
+    background-image: linear-gradient(rgb(37,225,143), rgb(76, 236, 202));
 }
 
 .watch {
@@ -94,5 +94,5 @@ span {
     height: 36px !important;
     border-radius: 6px !important;
     font-size: 16px !important;
-    background-image: linear-gradient(rgb(45,156,255), rgb(29, 194, 255))
+    background-image: linear-gradient(rgb(37,225,143), rgb(76, 236, 202));
 }

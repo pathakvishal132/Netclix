@@ -5,6 +5,8 @@ A Flask app that generates random movie recommendations, with details listed for
 
 ![app demo](/3_webdev/demo.gif)
 
+[Try Flixder](https://flixder.herokuapp.com/)
+
 **📸YouTube Tutorial: [https://youtu.be/HZHOhf8EXXc](https://youtu.be/HZHOhf8EXXc)**
 
 ## Inspiration

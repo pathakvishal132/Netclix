@@ -28,7 +28,7 @@ def home():
         'genre': row[10],
         'description': row[11],
         # default poster just so we see something
-        'image': 'http://drpp-ny.org/wp-content/uploads/2014/07/sorry-image-not-available.png',
+        'image': '',
         'imdb': 'Not Available'
    }
 

@@ -85,7 +85,7 @@ span {
 }
 
 .button.heart {
-    background-image: linear-gradient(rgb(37,225,143), rgb(76, 236, 202));
+    background-image: linear-gradient(rgb(37,225,143), rgb(76, 236, 202))
 }
 
 .watch {
@@ -94,5 +94,5 @@ span {
     height: 36px !important;
     border-radius: 6px !important;
     font-size: 16px !important;
-    background-image: linear-gradient(rgb(37,225,143), rgb(76, 236, 202));
+    background-image: linear-gradient(rgb(37,225,143), rgb(76, 236, 202))
 }

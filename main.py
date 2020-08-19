@@ -28,7 +28,7 @@ def home():
         'genre': row[10],
         'description': row[11],
         # default poster just so we see something
-        'image': 'https://nettv4u.com/uploads/jeans-movie-review.png',
+        'image': 'http://drpp-ny.org/wp-content/uploads/2014/07/sorry-image-not-available.png',
         'imdb': 'Not Available'
    }
 

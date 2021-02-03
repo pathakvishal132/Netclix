@@ -11,44 +11,44 @@
   <body>
     {% extends "template.html" %}
     {% block content %}
-    <div class="container master">
-      <div class="container" >
-
-          <button class="button watch" onclick="window.open('https://www.netflix.com/watch/{{movie.id}}', '_blank')"target='0'>
-          Watch Now!
-          <i class="fa fa-star"></i>
+    <div style="align-content: center;" class="container">
+    
+      <button class="button watch" onclick="window.open('https://www.netflix.com/watch/{{movie.id}}', '_blank')" target='0'>
+        Watch Now!
+        <i class="fa fa-star"></i>
+      </button>
+      <hr style="width: auto;" >
+      
+    <div >
+      <a href="{{ url_for('home') }}">
+        <button style="background-color:#1b262c; color: #fff; height: 2.5em;
+        box-shadow: 1px 2px 22px 0px #1b262c; " class="buttonnext">
+          <i class="next"> Next recommendation </i>
         </button>
-
-      </div>
-      <div>
-        <a href="{{ url_for('home') }}">
-          <button class="button heart">
-            <i class="next"> next </i>
-          </button>
-        </a>
-      </div>
+      </a>
+    </div>
+    </div>
+    
+    <div class="container master">
+     
+     
 
       <div class="movie-card">
         <img src={{movie.image}} alt="movie">
         <div class="text">
-          <h4><b>{{movie.title}}</b></h4>
-          <p class="marker"> <i class="fa fa-imdb" aria-hidden="true"></i> {{movie.imdb}}/10</p>
-            <p class="marker"><i class="fa fa-calendar" aria-hidden="true"></i> {{movie.release_year}}</p>
-          <p class="marker"> <i class="fa fa-film" aria-hidden="true"></i> {{movie.genre}}</p>
-          <p class="marker"> <i class="fa fa-clock-o" aria-hidden="true"></i> {{movie.duration}} </p>
-            <p class="marker"> <i class="fa fa-globe" aria-hidden="true"></i> {{movie.country}}</p>
+          <h4 style="color: #00C6AC;" ><b>{{movie.title}}</b></h4>
+          <p style="color: #fff;" s class="marker"> <i class="fa fa-imdb" aria-hidden="true"></i> {{movie.imdb}}/10</p>
+            <p style="color: #fff;" class="marker"><i class="fa fa-calendar" aria-hidden="true"></i> {{movie.release_year}}</p>
+          <p style="color: #fff;" class="marker"> <i class="fa fa-film" aria-hidden="true"></i> {{movie.genre}}</p>
+          <p style="color: #fff;" class="marker"> <i class="fa fa-clock-o" aria-hidden="true"></i> {{movie.duration}} </p>
+            <p style="color: #fff;" class="marker"> <i class="fa fa-globe" aria-hidden="true"></i> {{movie.country}}</p>
           <hr>
-          <p>{{movie.description}}</p>
+          <p style="color: #fff;" >{{movie.description}}</p>
         </div>
       </div>
 
-      <div>
-        <a href="{{ url_for('home') }}">
-          <button class="button heart">
-            <i class="next"> next </i>
-          </button>
-        </a>
-      </div>
+     
+     
     </div>
 
     {% endblock %}

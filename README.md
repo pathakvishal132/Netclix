@@ -6,7 +6,7 @@ A python flask app that generates random netflix movie and show recommendations,
 ## Demo 😮
 [Try Flixder](https://flixder.herokuapp.com/)
 
-![app demo](flixderDemo.gif)
+![app demo](flixderDemo.png)
 
 ## Inspiration 🤩
 Always wanted to work with a python web framework and so here I am implementing something basic with flask and python to get started. 

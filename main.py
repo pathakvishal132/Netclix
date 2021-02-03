@@ -30,7 +30,7 @@ def home():
         # default poster just so we see something
         'image': '',
         'imdb': 'Not Available'
-   }
+    }
 
     # fetch cover image
     # call OMDB database
@@ -46,9 +46,11 @@ def home():
     # send all this data to the home.html template
     return render_template("home.html", movie=movie)
 
+
 @app.route("/about")
 def about():
     return render_template("about.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True)
